@@ -20,7 +20,7 @@
   </p>
 </div>
 
-> ** Note **
+> **Note**
 > These are my personal configurations for use in local development / experiments. These samples must not be deployed in production environments
 
 # Getting Started
