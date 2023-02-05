@@ -1,10 +1,52 @@
-# Personal Compose
-list of compose files for testing, development and staging projects
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/mk3-14159/personal-compose">
+    <img src="docs/kraken.png" alt="Logo" width="80" height="80">
+  </a>
 
-![logo](docs/kraken.png)
+  <h3 align="center">Personal Compose</h3>
+
+  <p align="center">
+    list of compose files for testing, development and staging projects
+    <br />
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+  </p>
+</div>
 
 > ** Note **
 > These are my personal configurations for use in local development / experiments. These samples must not be deployed in production environments
+
+# Struture
+```bash
+.
+├── README.md
+├── dev-go
+│   └── compose.yml
+├── dev-python2
+│   └── compose.yml
+├── dev-python3
+│   └── compose.yml
+├── dev-rust
+│   └── compose.yml
+├── dev-shell
+│   └── compose.yml
+├── docs
+│   ├── LICENSE
+│   └── kraken.png
+├── minecraft
+│   ├── README.md
+│   └── compose.yml
+└── plex
+    └── compose.yml
+```
+
 
 # Getting Started
 These instructions will get you through the bootstrap phase of creating and deploying samples of containerized applications with Docker Compose.
@@ -14,7 +56,6 @@ These instructions will get you through the bootstrap phase of creating and depl
     - Windows / Macos : Install latest Docker Desktop
     - Linux : Install Docker and Docker Compose 
 2. Download samples from the repository
-
 
 ## Running a sample 
 The root directory should contain the *compose.yml* which describes the configurations of the service components. Use the following commands to:
