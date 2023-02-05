@@ -23,31 +23,6 @@
 > ** Note **
 > These are my personal configurations for use in local development / experiments. These samples must not be deployed in production environments
 
-# Struture
-```bash
-.
-├── README.md
-├── dev-go
-│   └── compose.yml
-├── dev-python2
-│   └── compose.yml
-├── dev-python3
-│   └── compose.yml
-├── dev-rust
-│   └── compose.yml
-├── dev-shell
-│   └── compose.yml
-├── docs
-│   ├── LICENSE
-│   └── kraken.png
-├── minecraft
-│   ├── README.md
-│   └── compose.yml
-└── plex
-    └── compose.yml
-```
-
-
 # Getting Started
 These instructions will get you through the bootstrap phase of creating and deploying samples of containerized applications with Docker Compose.
 
