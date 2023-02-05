@@ -1,0 +1,11 @@
+# dev environment for go using compose
+# docker compose run --rm dev
+# version:
+services:
+  dev:
+    image: "golang:1.19"
+    volumes:
+      # map local directory to container project
+      - ./local_go_project:/container_go_project
+    environment:
+      - USER=dev

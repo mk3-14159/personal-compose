@@ -1,0 +1,12 @@
+# shell scriptz brah
+# dev environment for rust using compose
+# docker compose run --rm dev
+# version:
+services:
+  dev:
+    image: "ubuntu"
+    volumes:
+      # map local directory to container project
+      - ./local_shell_project:/container_shell_project
+    environment:
+      - USER=dev

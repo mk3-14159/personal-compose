@@ -1,0 +1,12 @@
+# Can use different plex images based on plexinc - https://github.com/plexinc/pms-docker
+# deploy with compose - docker compose up -d
+services:
+  plex:
+    image: linuxserver/plex
+    container_name: plex
+    network_mode: host
+    environment:
+      - VERSION=docker
+    restart: always
+    volumes:
+      - ${PLEX_MEDIA_PATH}:/media/

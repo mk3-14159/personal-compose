@@ -1,0 +1,11 @@
+# dev environment for python2 using compose
+# docker compose run --rm dev
+# version:
+services:
+  dev:
+    image: "python:2.7.18-slim-stretch"
+    volumes:
+      # map local directory to container project
+      - ./local_python_project:/container_python_project
+    environment:
+      - USER=dev

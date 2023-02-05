@@ -1,0 +1,11 @@
+# dev environment for python using compose
+# docker compose run --rm dev
+# version:
+services:
+  dev:
+    image: "python:3.11.1-bullseye"
+    volumes:
+      # map local directory to container project
+      - ./local_python_project:/container_python_project
+    environment:
+      - USER=dev
