@@ -1,7 +1,7 @@
 # Personal Compose
 list of compose files for testing, development and staging projects
 
-![logo](doc/kraken.png)
+![logo](docs/kraken.png)
 
 > ** Note **
 > These are my personal configurations for use in local development / experiments. These samples must not be deployed in production environments
