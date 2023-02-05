@@ -1,0 +1,11 @@
+# dev environment for rust using compose
+# docker compose run --rm dev
+# version:
+services:
+  dev:
+    image: "rust:1.67"
+    volumes:
+      # map local directory to container project
+      - ./local_rust_project:/container_rust_project
+    environment:
+      - USER=dev
