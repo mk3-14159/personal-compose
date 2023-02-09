@@ -21,7 +21,7 @@
 </div>
 
 > **Note**
-> These are my personal configurations for use in local development / experiments. These samples must not be deployed in production environments
+> These are my personal configurations for use in local development / experiments. These samples must not be deployed in production environments.
 
 ## Introduction
 These instructions will get you through the bootstrap phase of creating and deploying samples of containerized applications with Docker Compose.
