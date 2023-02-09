@@ -58,3 +58,8 @@ Stop and remove all containers
 ```bash 
 docker compose down
 ```
+
+TODO:
+  get compose for windows image
+
+
