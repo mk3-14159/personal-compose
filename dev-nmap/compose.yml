@@ -1,0 +1,14 @@
+# nmap scriptz brah
+# dev environment for rust using compose
+# docker compose run --rm dev
+# docker pull instrumentisto/nmap
+# nmap -sC -sV -p-
+# version:
+services:
+  dev:
+    image: "instrumentisto/nmap"
+    volumes:
+      # map local directory to container project
+      - ./local_shell_project:/container_shell_project
+    environment:
+      - USER=dev
